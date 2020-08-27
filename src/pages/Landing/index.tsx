@@ -24,7 +24,6 @@ import './styles.css';
 
 
 function Landing(){
-
     return (
         <div id="landing-page" className="container">
             <Header />
