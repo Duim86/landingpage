@@ -1,0 +1,40 @@
+.banner1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5.4rem;
+
+    background-image: url(../../assets/background-gray.png);
+    background-size: contain;
+    background: no-repeat;
+}
+
+.banner1 h2 {
+    font: 700 6rem Spartan;
+    line-height: 8rem;
+    margin-bottom: 1.6rem;
+
+    width: 40rem;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: var(--color-blue-dark);
+}
+
+
+
+.banner1 p {
+    width: 36.5rem;
+
+    font: 400 3rem Lato;
+    
+    line-height: 4rem;
+  
+    letter-spacing: 0.05em;
+
+    color: var(--color-blue);
+}
+

@@ -1,0 +1,17 @@
+.buttons-block button {
+    width: 30.1rem;
+    height: 9.4rem;
+    background: #E03F13;
+    border-radius: 5rem;
+    border: none;
+    outline: none;
+}
+
+.buttons-block button span{
+    font: 400 2.4rem Lato;
+    line-height: 2.9rem;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+

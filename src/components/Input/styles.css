@@ -1,0 +1,19 @@
+.input-block input{
+    width: 40.8rem;
+    height: 9.4rem;
+    background: #FFFFFF;
+    border: 1px solid #E03F13;
+    box-sizing: border-box;
+    border-radius: 5rem;
+
+    font: 400 2.4rem Lato;
+
+    line-height: 2.9rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #444444;
+
+    outline:none;
+}
