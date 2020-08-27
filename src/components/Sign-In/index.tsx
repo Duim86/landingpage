@@ -30,8 +30,10 @@ const SignIn: React.FC<SignInProps> = (props) => {
         };
         try {
             await api.post('email', data);
+            setEmail('');
             alert("E-mail cadastrado");
         } catch (error) {
+            setEmail('');
             alert("Você já está fazendo parte da lista de espera!")
         }
     }
