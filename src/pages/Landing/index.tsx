@@ -11,12 +11,15 @@ import Circles from '../../components/Circles';
 
 import Footer from '../../components/Footer';
 
-import travelGroup from '../../assets/travelGroup.svg'
-import newPeople from '../../assets/newPeople.svg'
-import explorerRoutes from '../../assets/explorerRoutes.svg'
-import newRoutes from '../../assets/newRoutes.svg'
+import travelGroup from '../../assets/travelGroup.svg';
+import newPeople from '../../assets/newPeople.svg';
+import explorerRoutes from '../../assets/explorerRoutes.svg';
+import newRoutes from '../../assets/newRoutes.svg';
 
-import './styles.css'
+import bannerResources from '../../assets/bannerResources.svg';
+import snapPacker from '../../assets/snapPacker.svg';
+
+import './styles.css';
 
 
 
@@ -31,7 +34,9 @@ function Landing(){
 
                 <Banner1
                 title='Recursos'
-                text='A Snap Packing é a plataforma que facilita encontrar viagens e grupos de forma prática.'               
+                text='A Snap Packing é a plataforma que facilita encontrar viagens e grupos de forma prática.'   
+                img={bannerResources}
+
                 >                    
                 </Banner1>
                 
@@ -58,26 +63,32 @@ function Landing(){
                         img={newRoutes}
                     />
                 </div>  
+                <div className="container-banner">
+                    <Banner2
+                    title='Como Funciona'
+                    text='A Snap Packing é a plataforma que facilita encontrar viagens e grupos de forma prática.'    
+                    img={bannerResources}           
+                    >                    
+                    </Banner2>
 
-                <Banner2
-                title='Como Funciona'
-                text='A Snap Packing é a plataforma que facilita encontrar viagens e grupos de forma prática.'               
-                >                    
-                </Banner2>
+                    <Banner1
+                    title='Segurança'
+                    text='A Snap Packing é a plataforma que facilita encontrar viagens e grupos de forma prática.' 
+                    img={bannerResources}            
+                    >                    
+                    </Banner1>
 
-                <Banner1
-                title='Segurança'
-                text='A Snap Packing é a plataforma que facilita encontrar viagens e grupos de forma prática.'             
-                >                    
-                </Banner1>
+                    <Banner2
+                    title='Snap Packers'
+                    text='A Snap Packing é a plataforma que facilita encontrar viagens e grupos de forma prática.'      
+                    img={snapPacker}          
+                    >                    
+                    </Banner2>
+                </div>
 
-                <Banner2
-                title='SnapPackers'
-                text='A Snap Packing é a plataforma que facilita encontrar viagens e grupos de forma prática.'                
-                >                    
-                </Banner2>
-
-                <SignIn titleLine1='A iniciativa que faltava ' titleLine2='pra você ' titleSpan='viajar.'/>
+                <div className="last-sign-in">
+                    <SignIn titleLine1='A iniciativa que faltava ' titleLine2='para você ' titleSpan='viajar.'/>
+                </div>
 
 
 

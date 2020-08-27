@@ -1,13 +1,12 @@
 import React from 'react';
 
-import bannerResources from '../../assets/bannerResources.svg'
-
 import './styles.css'
 
 
 interface Banner1Props {
     title: string;
-    text: string
+    text: string;
+    img: string
 }
 
 const Banner1: React.FC<Banner1Props> = (props) => {
@@ -17,7 +16,7 @@ const Banner1: React.FC<Banner1Props> = (props) => {
                 <h2>{props.title}</h2>
                 <p>{props.text}</p>
             </div>
-            <img src={bannerResources} alt="Banner principal"/>
+            <img src={props.img} alt="Banner principal"/>
         </div>
 
     )
