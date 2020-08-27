@@ -33,7 +33,7 @@
     color: #444444;
 }
 
-.sign-in-content button, .sign-in-content a, .sign-in-content input{    
+.sign-in-content button, .sign-in-content a{    
     cursor: pointer;
     padding: 0;
     outline: none;
