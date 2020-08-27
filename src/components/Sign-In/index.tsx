@@ -2,7 +2,7 @@ import React, { useState, SyntheticEvent } from 'react';
 
 import { Link } from 'react-router-dom';
 
-import googleButton from '../../assets/googleButton.svg'
+import googleButton from '../../assets/googleButton.png'
 
 import Input from '../../components/Input';
 
