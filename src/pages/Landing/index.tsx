@@ -11,13 +11,13 @@ import Circles from '../../components/Circles';
 
 import Footer from '../../components/Footer';
 
-import travelGroup from '../../assets/travelGroup.svg';
-import newPeople from '../../assets/newPeople.svg';
-import explorerRoutes from '../../assets/explorerRoutes.svg';
-import newRoutes from '../../assets/newRoutes.svg';
+import travelGroup from '../../assets/travelGroup.png';
+import newPeople from '../../assets/newPeople.png';
+import explorerRoutes from '../../assets/explorerRoutes.png';
+import newRoutes from '../../assets/newRoutes.png';
 
-import bannerResources from '../../assets/bannerResources.svg';
-import snapPacker from '../../assets/snapPacker.svg';
+import bannerResources from '../../assets/bannerResources.png';
+import snapPacker from '../../assets/snapPacker.png';
 
 import './styles.css';
 
