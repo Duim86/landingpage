@@ -34,6 +34,27 @@ const SignIn: React.FC<SignInProps> = (props) => {
         } catch (error) {
             alert("Você já está fazendo parte da lista de espera!")
         }
+        
+    }
+    async function handleAddLeadGoogle(e: SyntheticEvent){
+        e.preventDefault();
+        try {
+            const dualScreenLeft = window.screenLeft !==  undefined ? window.screenLeft : window.screenX;
+            const dualScreenTop = window.screenTop !==  undefined   ? window.screenTop  : window.screenY;
+
+            const width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : window.screen.width;
+            const height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : window.screen.height;
+
+            const systemZoom = width / window.screen.availWidth;
+            const left = (width - 548) / 2 / systemZoom + dualScreenLeft
+            const top = (height - 500) / 2 / systemZoom + dualScreenTop
+ 
+            window.open('http://snappacking.appspot.com/google', '_blank', 'toolbar=no,scrollbars=no,resizable=yes, left='+ left +', top='+ top +', width=548/systemZoom, height=500/systemZoom');
+        
+            window.alert("E-mail cadastrado com o Google");
+        }catch (error) {
+            alert("Você já está fazendo parte da lista de espera!")
+        }
     }
     return (
         <>
@@ -43,7 +64,7 @@ const SignIn: React.FC<SignInProps> = (props) => {
             </div>
             <div className="sign-in-content">
                 <Link to="">
-                    <img src={googleButton} alt="" />
+                    <img src={googleButton} alt="" onClick={handleAddLeadGoogle} />
                 </Link>
                 <p>ou</p>
                 <form onSubmit={handleAddLead}>
