@@ -1,8 +1,8 @@
 :root {
     font-size: 62.5%;
 
-    /* --color-background: #F0F0F7;
-    --color-primary-lighter: #9871F5;
+    /* --color-background: #222; */
+    /* --color-primary-lighter: #9871F5;
     --color-primary-light: #916BEA;
     --color-primary: #8257E5;
     --color-primary-dark: #774DD6;
@@ -30,12 +30,19 @@
 }
 
 html, body, #root {
-    height: 100vh;
+    max-width: 90vw;
+    min-height: 100vh;
+    margin: auto;
 }
-
-/* body {
-    background-color: azure;
+/* 
+body {
+    background-color: var(--color-background);
 } */
+
+@font-face {
+    font-family: LeagueSpartan;    
+    src: url("../fonts/LeagueSpartan-Bold.ttf");
+}
 
 #root {
     display: flex;
@@ -43,27 +50,10 @@ html, body, #root {
     justify-content: center;
 }
 
-/* body, input, button, textarea {
-   font:  
-} */
-
-container {
-    
-    max-width: 700px;
-}
-
-@media (min-width: 1440px) {
-    :root {
-        font-size: 62.5%;
-    }
-}
-
-@media (max-width: 1440px) {
+ @media (max-width: 1366px) {
     :root {
         font-size: 55%;
         width: 90vw;
-        margin: auto;
-
     }
 }
 

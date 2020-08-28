@@ -32,7 +32,7 @@ function Landing(){
                 <SignIn titleLine1='A plataforma que vai' titleLine2=' '  titleSpan='mudar a sua forma de viajar.'/>
 
                 <Banner1
-                title='Recursos'
+                title='RECURSOS'
                 text='A Snap Packing é a plataforma que facilita encontrar viagens e grupos de forma prática.'   
                 img={bannerResources}
 
@@ -64,21 +64,21 @@ function Landing(){
                 </div>  
                 <div className="container-banner">
                     <Banner2
-                    title='Como Funciona'
+                    title='COMO FUNCIONA'
                     text='A Snap Packing é a plataforma que facilita encontrar viagens e grupos de forma prática.'    
                     img={bannerResources}           
                     >                    
                     </Banner2>
 
                     <Banner1
-                    title='Segurança'
+                    title='SEGURANÇA'
                     text='A Snap Packing é a plataforma que facilita encontrar viagens e grupos de forma prática.' 
                     img={bannerResources}            
                     >                    
                     </Banner1>
 
                     <Banner2
-                    title='Snap Packers'
+                    title='SNAP PACKERS'
                     text='A Snap Packing é a plataforma que facilita encontrar viagens e grupos de forma prática.'      
                     img={snapPacker}          
                     >                    

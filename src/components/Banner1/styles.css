@@ -1,37 +1,50 @@
 .banner1 {
+    position: relative;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-top: 5.4rem;
-    padding: 0 12rem;
+    text-align: right;
+    height: 81.1rem;
 }
 
 .banner1 h2 {
-    font: 700 6rem Spartan;
+    font: 700 6rem LeagueSpartan;
     line-height: 8rem;
     margin-bottom: 1.6rem;
-
     width: 40rem;
-
     display: flex;
     align-items: center;
     letter-spacing: 0.05em;
-
     color: var(--color-blue-dark);
 }
 
-
-
 .banner1 p {
-    width: 36.5rem;
-
-    font: 400 3rem Lato;
-    
-    line-height: 4rem;
-  
+    width: 40rem;
+    font: 400 3rem Lato;    
+    line-height: 4rem;  
     letter-spacing: 0.05em;
-
     color: var(--color-blue);
 }
 
+
+.banner1 .background-gray img{   
+    height: 67.5rem;
+    width: 120.9rem;
+}
+
+.banner1 .background-gray{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-180deg);
+}
+
+.banner1 .image {
+    position: absolute;
+    right: 7.5rem;
+}
+
+.banner1 .text-banner{
+    position: absolute;
+    left: 7.5rem;
+    top: 18.5rem
+}
