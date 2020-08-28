@@ -1,6 +1,5 @@
 .title-box {
     width: 100%;
-    margin: auto;
 }
 
 .title-box h1{
@@ -17,12 +16,11 @@
 
 .sign-in-content {
     width: 100%;
-   
-    display: grid;
-    grid-template-columns: 28% 7% 65%;
-    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-top: 8.5rem;
+    padding: 0 7.5rem;
 }
 
 .sign-in-content p{
@@ -43,11 +41,17 @@
 
 
 .sign-in-content a img {
-    width: 32rem;
+    width: 100%;
 }
 
 .form-snap-packer {
+    width: 100%;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.form-snap-packer button {
+    margin-left: 2rem;
 }
 
