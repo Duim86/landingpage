@@ -65,21 +65,21 @@ function Landing(){
                 <div className="container-banner">
                     <Banner2
                     title='COMO FUNCIONA'
-                    text='A Snap Packing é a plataforma que facilita encontrar viagens e grupos de forma prática.'    
+                    text= 'Sed sagittis lacus sed arcu ullamcorper, vitae luctus mi scelerisque. Fusce bibendum, est eget cursus rutrum, justo mauris porta tortor, placerat venenatis dui orci vel diam. Integer eget '  
                     img={bannerResources}           
                     >                    
                     </Banner2>
 
                     <Banner1
                     title='SEGURANÇA'
-                    text='A Snap Packing é a plataforma que facilita encontrar viagens e grupos de forma prática.' 
+                    text='Aenean semper malesuada augue et egestas. In porta risus diam, eget faucibus libero sagittis eu. Sed quis lectus in odio elementum viverra. Integer ac tortor id risus cursus mattis sed sit amet nunc. Morbi metus arcu, pellentesque tristique turpis eget, tempor sagittis lorem. Nunc ut pharetra odio.' 
                     img={bannerResources}            
                     >                    
                     </Banner1>
 
                     <Banner2
                     title='SNAP PACKERS'
-                    text='A Snap Packing é a plataforma que facilita encontrar viagens e grupos de forma prática.'      
+                    text='Vestibulum blandit et nisi viverra facilisis. Ut tempor tellus feugiat accumsan lobortis. Suspendisse potenti. Pellentesque dignissim dolor magna..'      
                     img={snapPacker}          
                     >                    
                     </Banner2>
