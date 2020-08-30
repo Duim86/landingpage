@@ -6,7 +6,7 @@ import googleButton from '../../assets/googleButton.png'
 
 import Input from '../../components/Input';
 
-import Buttons from '../../components/buttons';
+import Buttons from '../../components/Buttons'
 import api from '../../services/api';
 
 
@@ -59,7 +59,7 @@ const SignIn: React.FC<SignInProps> = (props) => {
         }
     }
     return (
-        <>
+        <div className="sign-in-box">
             <div className="title-box">
                 <h1>{props.titleLine1}</h1>
                 <h1>{props.titleLine2}<span>{props.titleSpan}</span></h1>
@@ -78,7 +78,7 @@ const SignIn: React.FC<SignInProps> = (props) => {
                     </div>
                 </form>
             </div>
-        </>
+        </div>
 
     )
 };

@@ -45,13 +45,9 @@
 }
 
 .form-snap-packer {
-    width: 100%;
+    width: 72rem;
     display: flex;
     justify-content: space-between;
     align-items: center;   
-}
-
-.form-snap-packer button {
-    margin-left: 2rem;
 }
 

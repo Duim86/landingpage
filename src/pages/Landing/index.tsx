@@ -4,8 +4,8 @@ import React from 'react';
 import Header from '../../components/Header';
 import SignIn from '../../components/Sign-In';
 
-import Banner1 from '../../components/Banner1';
-import Banner2 from '../../components/Banner2';
+import Banner from '../../components/Banner';
+
 
 import Circles from '../../components/Circles';
 
@@ -31,13 +31,13 @@ function Landing(){
 
                 <SignIn titleLine1='A plataforma que vai' titleLine2=' '  titleSpan='mudar a sua forma de viajar.'/>
 
-                <Banner1
+                <Banner side={true}
                 title='RECURSOS'
                 text='A Snap Packing é a plataforma que facilita encontrar viagens e grupos de forma prática.'   
                 img={bannerResources}
 
                 >                    
-                </Banner1>
+                </Banner>
                 
                 <div className="circles-container"> 
                     <Circles 
@@ -63,26 +63,26 @@ function Landing(){
                     />
                 </div>  
                 <div className="container-banner">
-                    <Banner2
+                    <Banner side={false}
                     title='COMO FUNCIONA'
                     text= 'Sed sagittis lacus sed arcu ullamcorper, vitae luctus mi scelerisque. Fusce bibendum, est eget cursus rutrum, justo mauris porta tortor, placerat venenatis dui orci vel diam. Integer eget '  
                     img={bannerResources}           
                     >                    
-                    </Banner2>
+                    </Banner>
 
-                    <Banner1
+                    <Banner side={true}
                     title='SEGURANÇA'
-                    text='Aenean semper malesuada augue et egestas. In porta risus diam, eget faucibus libero sagittis eu. Sed quis lectus in odio elementum viverra. Integer ac tortor id risus cursus mattis sed sit amet nunc. Morbi metus arcu, pellentesque tristique turpis eget, tempor sagittis lorem. Nunc ut pharetra odio.' 
+                    text='Aenean semper malesuada augue et egestas. In porta risus diam, eget faucibus libero sagittis eu. Sed quis lectus in odio elementum viverra. Integer ac tortor id risus cursus mattis sed sit amet nunc. Morbi metus arcu.' 
                     img={bannerResources}            
                     >                    
-                    </Banner1>
+                    </Banner>
 
-                    <Banner2
+                    <Banner side={false}
                     title='SNAP PACKERS'
-                    text='Vestibulum blandit et nisi viverra facilisis. Ut tempor tellus feugiat accumsan lobortis. Suspendisse potenti. Pellentesque dignissim dolor magna..'      
+                    text='Vestibulum blandit et nisi viverra facilisis. Ut tempor tellus feugiat accumsa lobortis. Suspendisse potenti. Pellentesque dignissim dolor magna..'      
                     img={snapPacker}          
                     >                    
-                    </Banner2>
+                    </Banner>
                 </div>
 
                 <div className="last-sign-in">
