@@ -49,6 +49,11 @@ p {
     left: 7.5rem;
 }
 
+.image img {
+    width: 66.5rem;
+    height: 64rem
+}
+
 .text-banner{
     position: absolute;
     right: 7.5rem;

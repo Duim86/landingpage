@@ -3,12 +3,6 @@
     width: 100vw   
 }
 
-.circles-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
 .last-sign-in {
     margin-top: 15rem;
 }

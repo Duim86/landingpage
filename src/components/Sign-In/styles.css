@@ -41,13 +41,25 @@
 
 
 .sign-in-content a img {
-    width: 100%;
+    width: 32.4rem;
+    height: 7.8rem
 }
 
 .form-snap-packer {
-    width: 72rem;
+    width: 80.8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;   
 }
+
+.form-snap-packer button {
+    width: 28.3rem;
+    height: 9.4rem;
+}
+
+.form-snap-packer button {
+    width: 38.4rem;
+    height: 9.4rem;
+}
+
 

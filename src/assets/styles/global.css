@@ -50,10 +50,40 @@ body {
     justify-content: center;
 }
 
- @media (max-width: 1366px) {
+@media (max-width: 1366px) {
     :root {
         font-size: 55%;
-        width: 100vw;
     }
 }
 
+@media (max-width: 1173px) {
+    :root {
+        font-size: 50%;
+    }
+
+}
+
+@media (max-width: 1059px) {
+    :root {
+        font-size: 40%;
+    }
+
+@media (max-width: 865px) {
+    :root {
+        font-size: 37%;
+    }
+}
+
+@media (max-width: 785px) {
+    :root {
+        font-size: 33%;
+    }
+}
+
+@media (max-width: 702px) {
+    :root {
+        font-size: 30%;
+    }
+}
+
+}
